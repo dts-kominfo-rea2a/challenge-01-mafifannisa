@@ -1,0 +1,22 @@
+{
+  "name": "challenge-js-data-structure",
+  "version": "1.0.0",
+  "description": "Kamu adalah seorang developer untuk sebuah sosial media DingDong.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --forceExit --runInBand --detectOpenHandles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/menjadi-react-developer/challenge-js-data-structure.git"
+  },
+  "author": "Withered Flowers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/menjadi-react-developer/challenge-js-data-structure/issues"
+  },
+  "homepage": "https://github.com/menjadi-react-developer/challenge-js-data-structure#readme",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}
