@@ -18,5 +18,8 @@
   "homepage": "https://github.com/menjadi-react-developer/challenge-js-data-structure#readme",
   "devDependencies": {
     "jest": "^28.1.0"
+  },
+  "dependencies": {
+    "junit": "^1.4.9"
   }
 }

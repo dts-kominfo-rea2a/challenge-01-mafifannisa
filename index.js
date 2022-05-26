@@ -96,24 +96,26 @@ firstUser.name =  'Monica';
 firstUser.gender =  'Female';
 firstUser.age =  17;
 firstUser.email =  'monica@dingdong.com';
-firstUser.favoriteColor =  favoriteColorUserPertama;
+firstUser.favoriteColor =  [...favoriteColorUserPertama];
 firstUser.isHavePet =  'Yes';
-firstUser.education =  educationUserPertama;
-firstUser.favoriteRestaurant =  favoriteRestaurantUserPertama;
+firstUser.education =  [...educationUserPertama];
+firstUser.favoriteRestaurant =  [...favoriteRestaurantUserPertama];
 
 const secondUser = {};
 secondUser.name =  'Wendy';
 secondUser.gender =  'Male';
 secondUser.age =  23;
 secondUser.email =  'wendy@dingdong.com';
-secondUser.favoriteColor =  favoriteColorUserKedua;
+secondUser.favoriteColor =  [...favoriteColorUserKedua];
 secondUser.isHavePet =  'No';
-secondUser.education = educationUserKedua;
-secondUser.favoriteRestaurant = favoriteRestaurantUserKedua;
+secondUser.education = [...educationUserKedua];
+secondUser.favoriteRestaurant = [...favoriteRestaurantUserKedua];
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
 const users = [];
 users.push(firstUser, secondUser);
+
+console.log(users[0].favoriteColor.length);
 
 // ! JANGAN MODIFIKASI LINE DI BAWAH
 function main() {
